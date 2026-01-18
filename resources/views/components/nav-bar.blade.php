@@ -32,7 +32,7 @@
                 @endforeach
 
                 <button class="px-6 py-2 rounded-full text-sm font-semibold bg-white text-stone-900 hover:bg-stone-100 transition">
-                    Book Now
+                    Pesan Sekarang
                 </button>
             </div>
 
