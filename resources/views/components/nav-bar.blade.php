@@ -21,6 +21,7 @@
                         ['label' => 'Gallery', 'href' => '#gallery'],
                         ['label' => 'About', 'href' => '#about'],
                         ['label' => 'Contact', 'href' => '#contact'],
+                        ['label' => 'PriceList', 'href' => '#pricelist'],
                     ];
                 @endphp
 
