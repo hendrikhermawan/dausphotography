@@ -7,7 +7,8 @@
                     <div class="space-y-6 mt-12 text-lg text-stone-600 font-light">
                         <div class="flex items-center gap-4">
                             <i data-lucide="mail" class="w-5 h-5"></i>
-                            <span>halo@dausphotography.com</span>
+                            <span>{{ $email }}</span>
+                            <span>{{ $telp }}</span>
                         </div>
                         <div class="flex items-center gap-4">
                             <i data-lucide="map-pin" class="w-5 h-5"></i>
