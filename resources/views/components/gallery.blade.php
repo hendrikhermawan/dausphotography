@@ -11,7 +11,7 @@
                     <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Landscape">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
                         <span class="text-stone-300 text-xs uppercase tracking-widest mb-1">Landscape</span>
-                        <h4 class="text-white text-2xl font-serif">Puncak Abadi</h4>
+                        <h4 class="text-white text-2xl font-serif">Wedding</h4>
                     </div>
                 </div>
                 <!-- Item 2 -->
@@ -19,7 +19,7 @@
                     <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Portrait">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
                         <span class="text-stone-300 text-xs uppercase tracking-widest mb-1">Portrait</span>
-                        <h4 class="text-white text-xl font-serif">Tatapan Jiwa</h4>
+                        <h4 class="text-white text-xl font-serif">Engagement</h4>
                     </div>
                 </div>
                 <!-- Item 3 -->
@@ -27,7 +27,7 @@
                     <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Architecture">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-end">
                         <span class="text-stone-300 text-xs uppercase tracking-widest mb-1">Architecture</span>
-                        <h4 class="text-white text-xl font-serif">Garis Kota</h4>
+                        <h4 class="text-white text-xl font-serif">Wisuda</h4>
                     </div>
                 </div>
                 <!-- Item 4 -->
@@ -35,7 +35,7 @@
                     <img src="https://images.unsplash.com/photo-1505144808419-1957a94ca61e?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Nature">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
                         <span class="text-stone-300 text-xs uppercase tracking-widest mb-1">Nature</span>
-                        <h4 class="text-white text-2xl font-serif">Aliran Hening</h4>
+                        <h4 class="text-white text-2xl font-serif">Unduh Mantu</h4>
                     </div>
                 </div>
             </div>

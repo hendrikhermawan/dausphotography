@@ -1,6 +1,7 @@
 <header>
     <!-- NAVBAR -->
-    <nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 nav-transition px-6 py-5">
+    <nav id="main-nav"
+         class="fixed top-0 left-0 right-0 z-50 px-6 py-5 bg-transparent transition-all duration-300 ease-in-out">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
 
             <!-- Logo -->
@@ -32,7 +33,8 @@
                     </a>
                 @endforeach
 
-                <button class="px-6 py-2 rounded-full text-sm font-semibold bg-white text-stone-900 hover:bg-stone-100 transition">
+                <button
+                    class="px-6 py-2 rounded-full text-sm font-semibold bg-white text-stone-900 hover:bg-stone-100 transition">
                     Pesan Sekarang
                 </button>
             </div>
@@ -61,9 +63,37 @@
         @endforeach
 
         <div class="flex gap-6 mt-10">
-            <i data-lucide="instagram" class="w-6 h-6 text-stone-400 hover:text-white cursor-pointer"></i>
-            <i data-lucide="facebook" class="w-6 h-6 text-stone-400 hover:text-white cursor-pointer"></i>
-            <i data-lucide="twitter" class="w-6 h-6 text-stone-400 hover:text-white cursor-pointer"></i>
+            <i data-lucide="instagram"
+               class="w-6 h-6 text-stone-400 hover:text-white cursor-pointer"></i>
+            <i data-lucide="facebook"
+               class="w-6 h-6 text-stone-400 hover:text-white cursor-pointer"></i>
+            <i data-lucide="twitter"
+               class="w-6 h-6 text-stone-400 hover:text-white cursor-pointer"></i>
         </div>
     </div>
 </header>
+
+<!-- SCRIPT SCROLL NAVBAR -->
+<script>
+    const nav = document.getElementById('main-nav');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 80) {
+            nav.classList.add(
+                'bg-black/70',
+                'backdrop-blur-lg',
+                'shadow-lg',
+                'py-3'
+            );
+            nav.classList.remove('bg-transparent', 'py-5');
+        } else {
+            nav.classList.remove(
+                'bg-black/70',
+                'backdrop-blur-lg',
+                'shadow-lg',
+                'py-3'
+            );
+            nav.classList.add('bg-transparent', 'py-5');
+        }
+    });
+</script>
